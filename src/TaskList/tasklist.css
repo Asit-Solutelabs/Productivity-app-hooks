@@ -1,0 +1,106 @@
+.listDiv{
+    width: 350px;
+    background-color:  #ffffff;
+    margin: auto;
+    height: 80px;
+    max-height: 120px;
+    min-width: 250px;
+    box-shadow: 0 0 3px #747474;
+    border-radius: 5%;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.textsubmitarea{
+    width:280px;
+    display: flex;
+    flex-flow: row;
+}
+
+.namep{
+    background-color:transparent;
+    max-height: 25px;
+    border: none;
+    margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    width: 210px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.namep:focus{
+    outline: none;
+    background-color: rgb(231, 231, 231);
+}
+
+.timer{
+    display: flex;
+    flex-flow: row;
+    max-height: 20px;
+}
+
+.time{
+    margin-top: -2px;
+}
+
+.control{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    height: 25px;
+    background-color: rgb(189, 189, 189);
+}
+
+.delete{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 16px;
+    width: 19px;
+    border-radius: 4px;
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.complete{
+    background-color: transparent;
+    margin-left: 15px;
+    border: none;
+    height: 100%;
+    width: 60px;
+    color: #080080;
+    font-weight: bold;
+    outline: none;
+    padding-right: 2px;
+}
+
+.complete:hover{
+    background-color: rgb(231, 231, 231);
+    color: #6054ff;
+}
+
+@media(max-width:420px){
+    .listDiv{
+        width: 100%;
+    }
+    .control{
+        width:100%;
+        padding-left: 0px;
+    }
+    .textsubmitarea{
+        width: 30%;
+    }
+    .delete{
+        margin-left: 180px;
+    }
+    .complete{
+        margin-left: 0px;
+    }
+}

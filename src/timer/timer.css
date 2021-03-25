@@ -1,0 +1,44 @@
+.timerDiv{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.Start{
+    height: 18px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 240, 240);
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+.Start:hover{
+    background-color: rgb(211, 210, 210);
+}
+
+.time{
+    font-size: larger;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.startstopDiv{
+    width: 150px;
+    margin-right: 120px;
+    margin-left: -35px;
+}
+
+.showTime{
+    font-size: xx-small;
+    width: 180px;
+    margin-left: 13px;
+}
+
+@media(max-width:420px){
+    .startstopDiv{
+        margin-right: 100px;
+    }
+}

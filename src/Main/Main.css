@@ -1,0 +1,61 @@
+.containerDiv{
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+    margin: auto;
+    height: auto;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    box-shadow: 0 5px 8px rgb(136, 136, 136);
+    max-height: 100vh;
+}
+
+.addtext{
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 20px;
+    background-color: transparent;
+    color: rgb(250, 250, 250);
+    font-size: larger;
+    text-align: center;
+}
+
+.addbutton{
+    height: 30px;
+    border-radius: 100%;
+    background-color:white;
+    color: rgb(70, 69, 69);
+    font-weight: bolder;
+    font-size: large;
+    width: 30px;
+    outline: none;
+}
+
+.header{
+    margin-top: 10px;
+    height: 35px;
+    background-color: rgb(88, 87, 87);
+}
+
+.taksarea{
+    max-height: 85vh;
+    overflow-y: scroll;
+}
+
+.note{
+    height: 2px;
+    font-size: small;
+    text-align: center;
+}
+
+::placeholder{
+    color: rgb(151, 150, 150);
+    text-align: center;
+}
+
+@media(max-width:420px){
+    .containerDiv{
+        width: 100%;
+    }
+}
